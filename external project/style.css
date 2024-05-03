@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&display=swap');
+
+/*
+ font-family: "Barlow Semi Condensed", serif;
+ font-family: "Lexend", serif;
+*/
+
+* {
+    transition: 1s;
+  }
+
+nav {
+
+    background-color: #de1e36;
+
+}
+
+nav ul {
+    list-style-type: none;
+    color: #ffffff;
+    font-family: Lexend;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #de1e36;
+    color: #ffffff;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background:#e57e8a;
+    color: #000000;
+}
+
+header section p img {
+    max-height: 260px;
+    padding-left: 20px;
+
+}
+
+header {
+    background: #777;
+    padding: 25px;
+    background-image:url(images/website.downs_.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 300px;
+}
+
+h1 {
+    font-family: Barlow Semi Condensed;
+    color:#000000;
+
+}
+
+h2 {
+    font-family: Lexend;
+}
+
+h4 {
+    font-family: Lexend;
+}
+
+p {
+    font-family: Barlow Semi Condensed;
+}
+
+footer {
+    background-color: #de1e36;
+    color:#ffffff;
+    padding: 6px;
+}
+
+footer p img {
+    max-height: 150px;
+}
+
+footer p {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+main section ul {
+    list-style-type: none;
+}
+
+main section ul li p img {
+        max-width: 500px;
+        
+}
+
+main section ul li {
+    font-family: Barlow Semi Condensed;
+}
+
+
+.socials {
+        display: flex;
+    justify-content: center;
+        list-style-type: none;
+}
+
+.socials img {
+    max-width: 60px;
+    padding: 10px;
+
+}
+

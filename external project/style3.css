@@ -1,0 +1,59 @@
+main section img {
+    max-height: 500px;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+table {
+    align-content: center;
+    text-align: left;
+    border: 1px solid #000000
+}
+
+table th {
+    font-family: Lexend;
+}
+
+table tr, td {
+    font-family: Barlow Semi Condensed;
+}
+
+table, tr, th, td {
+    padding: .9rem;
+}
+
+thead {
+    background: #000000;
+    color: #ffffff;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    grid-area: img;
+}
+
+.hours {
+    grid-area: hours;
+}
+
+.socials {
+    grid-area: socials;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "contact img img"
+    "hours img img"
+    "socials socials socials"
+    ;
+    grid-gap: 8px;
+}
